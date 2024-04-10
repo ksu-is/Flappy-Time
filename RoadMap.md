@@ -1,19 +1,19 @@
-Create README file
+1. Create README file
 
-Upload code from existing repository
+2. Upload code from existing repository
 
-Test existing repository and note any issues that surface
+3. Test existing repository and note any issues that surface
 
-Clone repositories for existing code & development code to Github Desktop
+4. Clone repositories for existing code & development code to Github Desktop
 
-Analyze existing repositories in VS Code, adding notes of each codes function
+5. Analyze existing repositories in VS Code, adding notes of each codes function
 
-Create an outline for program
+6. Create an outline for program
 
-Add changes for assignment tracker program in development code
+7. Add changes for assignment tracker program in development code
 
-Test Flappy Time program, seeing if any issues occur
+8. Test Flappy Time program, seeing if any issues occur
 
-fix issues & re-test
+9. fix issues & re-test
 
-Create Powerpoint slide for final presentation
+10. Create Powerpoint slide for final presentation
