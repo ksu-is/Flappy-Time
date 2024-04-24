@@ -3,6 +3,10 @@ from pygame.locals import *
 
 pygame.init()
 
+#frames per sec (for the scroll to move smoother)
+clock = pygame.time.Clock()
+fps = 60
+
 window_width = 864
 window_height = 936
 
