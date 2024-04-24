@@ -17,13 +17,18 @@ scroll_speed = 4
 
 #load images
 bg = pygame.image.load('bg.png')
-
+ground_img = pygame.image.load('ground.png')
 
 run = True
 while run:
-
+    
+    #draw background
     window.blit(bg, (0,0))
-
+    
+    #draw and scroll the gorund
+    window.blit(ground_img, (ground_scroll,768))
+    ground_scroll -= scroll_speed
+    
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
