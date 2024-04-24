@@ -23,6 +23,12 @@ scroll_speed = 4
 bg = pygame.image.load('bg.png')
 ground_img = pygame.image.load('ground.png')
 
+#add finn character and prepare to animate
+class Finn(pygame.sprite.Sprite):
+    def __init__(self, x, y):
+        pygame.sprite.Sprite.__init__(self)
+
+
 run = True
 while run:
 
