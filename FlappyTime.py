@@ -25,6 +25,9 @@ ground_img = pygame.image.load('ground.png')
 
 run = True
 while run:
+
+    #call fps
+    clock.tick(fps)
     
     #draw background
     window.blit(bg, (0,0))
