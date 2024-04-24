@@ -10,14 +10,19 @@ window = pygame.display.set_mode((window_width, window_height))
 pygame.display.set_caption("Flappy Time")
 
 
+#define game variables
+ground_scroll = 0
+scroll_speed = 4
+
+
 #load images
-background = pygame.image.load('img/background.png')
+bg = pygame.image.load('bg.png')
 
 
 run = True
 while run:
 
-    window.blit(background, (0,0))
+    window.blit(bg, (0,0))
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
