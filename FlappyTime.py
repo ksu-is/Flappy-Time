@@ -36,6 +36,10 @@ while run:
     window.blit(ground_img, (ground_scroll,768))
     ground_scroll -= scroll_speed
     
+    #continues scroll effect
+    if abs(ground_scroll) > 35:
+        ground_scroll = 0
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
